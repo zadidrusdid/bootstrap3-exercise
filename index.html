@@ -13,17 +13,20 @@
     <header class="container">
         <section id="menu" class="navbar navbar-default">
         	<div class="navbar-header">
-                <button class="btn btn-success btn-sm"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                <button class="btn btn-success btn-xs navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"></span></button>
                 <div id="logo">
                     <a href='.'><h1>My Cat World</h1></a>
                 </div>
             </div>
-            
+            <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href=".">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="nav active"><a href=".">Home</a></li>
+                <li class="nav"><a href="about.html">About</a></li>
+                <li class="nav"><a href="contact.html">Contact</a></li>
             </ul>
+            </div>
          </section>
     </header>  
 
